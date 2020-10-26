@@ -1,0 +1,23 @@
+训练完train_datasets之后，model要来测试样本了。在model(test_datasets)之前，需要加上model.eval().
+否则的话，有输入数据，即使不训练，它也会改变权值。这是model中含有batch normalization层所带来的的性质。
+在做one classification的时候，训练集和测试集的样本分布是不一样的，尤其需要注意这一点。
+
+np删除指定行列
+x = numpy.delete(x，i, axis = 0)
+np多数据拼接
+numpy.concatenate((a1,a2,...), axis=0)
+
+哈达玛积(Hadamard):同阶矩阵对应元素相乘
+
+
+
+
+
+spectrum 光谱
+manipulate 控制，操作
+retina 视网膜
+modality 形式
+discrete 不连续的 分离的
+
+How transferable are features in deep neural networks		2014 迁移学习
+
